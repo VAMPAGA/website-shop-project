@@ -9,49 +9,42 @@
 
 <body>
     <div class="menu">
-        <a href="information.html" class="menu-tab">Information</a>
-        <a href="delivery.html" class="menu-tab">Delivery</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Computer Components Store</a>
+        <div class="navbar-nav">
+            <button class="menu-btn">Information</button>
+            <button class="menu-btn">Delivery</button>
+        </div>
+        </nav>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="sourceMat/cpu.jpg" alt="CPU">
-                    <div class="card-body">
-                        <div class="product-description">
-                            <p class="card-text">Description: Intel Core i5-9600K 3.7GHz 6-Core Processor</p>
-                            <button class="btn btn-success">Buy</button>
-                            <div class="price">$199.99</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="sourceMat/gpu.jpg" alt="GPU">
-                    <div class="card-body">
-                        <div class="product-description">
-                            <p class="card-text">Description: NVIDIA GeForce RTX 3070 8GB Video Card</p>
-                            <button class="btn btn-success">Buy</button>
-                            <div class="price">$349.99</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="sourceMat/motherboard.jpg" alt="Motherboard">
-                    <div class="card-body">
-                        <div class="product-description">
-                            <p class="card-text">Description: ASUS ROG STRIX B450-F GAMING ATX AM4 Motherboard</p>
-                            <button class="btn btn-success">Buy</button>
-                            <div class="price">$129.99</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="product-img" src="sourceMat/cpu.jpg" alt="CPU">
+          <div class="product-description">
+            <p>Description: Intel Core i5-9600K 3.7GHz 6-Core Processor</p>
+            <button class="buy-btn">Buy</button>
+            <div class="price">$199.99</div>
+          </div>
         </div>
-
+    <div class="col-md-4">
+      <img class="product-img" src="sourceMat/gpu.jpg" alt="GPU">
+      <div class="product-description">
+        <p>Description: NVIDIA GeForce RTX 3070 8GB Video Card</p>
+        <button class="buy-btn">Buy</button>
+        <div class="price">$349.99</div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <img class="product-img" src="sourceMat/motherboard.jpg" alt="Motherboard">
+      <div class="product-description">
+        <p>Description: ASUS ROG STRIX B450-F GAMING ATX AM4 Motherboard</p>
+        <button class="buy-btn">Buy</button>
+        <div class="price">$129.99</div>
+      </div>
+    </div>
+  </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

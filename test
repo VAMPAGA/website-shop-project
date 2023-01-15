@@ -1,0 +1,27 @@
+.price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fafafa;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  
+  /* Style for menu */
+  .menu {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  /* Style for menu tabs */
+  .menu-tab {
+    display: inline-block;
+    padding: 14px 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Style for active menu tab */
+  .menu-tab.active {
+background-color: #ddd;
+}
