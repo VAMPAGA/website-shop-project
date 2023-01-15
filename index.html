@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Components Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style>
+    /* Style for price tags */
+    .price {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #fafafa;
+      padding: 5px 10px;
+      font-size: 18px;
+    }
+    
+    /* Style for menu */
+    .menu {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    /* Style for menu tabs */
+    .menu-tab {
+      display: inline-block;
+      padding: 14px 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    /* Style for active menu tab */
+    .menu-tab.active {
+background-color: #ddd;
+}
+</style>
+
+</head>
+
+<body>
+    <div class="menu">
+        <a href="information.html" class="menu-tab">Information</a>
+        <a href="delivery.html" class="menu-tab">Delivery</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="cpu.jpg" alt="CPU">
+                    <div class="card-body">
+                        <div class="product-description">
+                            <p class="card-text">Description: Intel Core i5-9600K 3.7GHz 6-Core Processor</p>
+                            <button class="btn btn-success">Buy</button>
+                            <div class="price">$199.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="gpu.jpg" alt="GPU">
+                    <div class="card-body">
+                        <div class="product-description">
+                            <p class="card-text">Description: NVIDIA GeForce RTX 3070 8GB Video Card</p>
+                            <button class="btn btn-success">Buy</button>
+                            <div class="price">$349.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="motherboard.jpg" alt="Motherboard">
+                    <div class="card-body">
+                        <div class="product-description">
+                            <p class="card-text">Description: ASUS ROG STRIX B450-F GAMING ATX AM4 Motherboard</p>
+                            <button class="btn btn-success">Buy</button>
+                            <div class="price">$129.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
